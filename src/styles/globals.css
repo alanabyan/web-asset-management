@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 180 60% 98%;
+    --foreground: 176 5% 0%;
+    --card: 176 50% 90%;
+    --card-foreground: 176 5% 10%;
+    --popover: 180 60% 98%;
+    --popover-foreground: 176 100% 0%;
+    --primary: 176 66.4% 28%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 176 30% 70%;
+    --secondary-foreground: 0 0% 0%;
+    --muted: 138 30% 85%;
+    --muted-foreground: 176 5% 35%;
+    --accent: 138 30% 80%;
+    --accent-foreground: 176 5% 10%;
+    --destructive: 0 100% 30%;
+    --destructive-foreground: 176 5% 90%;
+    --border: 176 30% 50%;
+    --input: 176 30% 18%;
+    --ring: 176 66.4% 28%;
+    --radius: 0.5rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 176 50% 5%;
+    --foreground: 176 5% 90%;
+    --card: 176 50% 0%;
+    --card-foreground: 176 5% 90%;
+    --popover: 176 50% 5%;
+    --popover-foreground: 176 5% 90%;
+    --primary: 176 66.4% 28%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 176 30% 10%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 138 30% 15%;
+    --muted-foreground: 176 5% 60%;
+    --accent: 138 30% 15%;
+    --accent-foreground: 176 5% 90%;
+    --destructive: 0 100% 30%;
+    --destructive-foreground: 176 5% 90%;
+    --border: 176 30% 18%;
+    --input: 176 30% 18%;
+    --ring: 176 66.4% 28%;
+    --radius: 0.5rem;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer utilities {
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+      .no-scrollbar {
+          -ms-overflow-style: none; 
+          scrollbar-width: none;
+    }
+  }
